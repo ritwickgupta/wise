@@ -40,4 +40,4 @@ Your bucket should now be created. You should be able to find it's name in the S
 Should see an endpoint under static website hosting. If you click it should open your html file.
 
 ## Domain Name Server (After Workshop):
-[Link to Amazon S3 Domain Configuration]()
+[Link to Amazon S3 Domain Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html)
