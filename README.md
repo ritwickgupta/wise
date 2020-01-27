@@ -23,14 +23,23 @@ The purpose of this workshop is to give a bit of exposure to using Amazon Web Se
 
 Your bucket should now be created. You should be able to find it's name in the S3 list.
 
+### Updating the Bucket Policy
+1. Click on your bucket.
+1. Click `Permissions`.
+1. Click `Bucket Policy`.
+1. Copy the `bucketpolicy.json` from this repo and paste in the editor.
+1. Click `Save`.
+
 ### Uploading a file to your S3 bucket
-1. Click on your new bucket.
+1. Click on your bucket.
 1. Click `Upload`.
 1. Upload [`index.html`](index.html) (or another file).
 1. Click `Next`. The default settings are fine for our purposes.
 1. Click `Next`. The default settings are fine for our purposes.
 1. Click `Upload`.
 1. The file should upload and you should be able to see the file in the bucket.
+
+### Host Website
 1. Click `Properties`
 1. Click `Static Website Hosting`. This enables the bucket's contents to be available to public hosting.
 1. Check `Use this bucket`.
